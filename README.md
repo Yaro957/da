@@ -29,45 +29,39 @@ Apart from academics, I've been the **Club Head of the Hackslash Coding Club**, 
 
 ### 🛒 Amazon Sales Dashboard
 
-One of my key projects involved building a comprehensive **Sales Performance Dashboard** for an e-commerce company that generated around **$1.57 million in revenue** across nearly **6,000 orders**.
+**Q: Can you walk me through your Amazon Sales Dashboard project?**
 
-**The Challenge:**  
-Stakeholders lacked a clear, real-time view of regional performance, sales trends, and profitability, which slowed down their decision-making.
+Sure! So this was one of my key projects where I built a comprehensive Sales Performance Dashboard for an e-commerce dataset that had around **$1.57 million in revenue** across nearly **6,000 orders**.
 
-**My Approach:**
+The main problem I was trying to solve was that the raw data didn't provide a clear view of regional performance, sales trends, or profitability. Decision-makers needed a unified view to understand what was driving sales and where opportunities existed.
 
-1. **Data Modeling:** Designed a **star schema data model** in SQL Server with dimension tables for products, customers, and regions, and a central fact table for sales transactions
-2. **Integration:** Connected the optimized model to Power BI
-3. **Advanced Analytics:** Created measures using DAX for profit margins, year-over-year growth, and regional comparisons
-4. **Visualization:** Built an interactive dashboard with drill-down capabilities by region, product category, and time period
+My approach was to first organize the data properly. The dataset was quite messy initially, so I designed a **star schema data model** in SQL Server. I created dimension tables for products, customers, and regions, and a central fact table for all the sales transactions. This structure made the data much faster to query and analyze.
 
-**Business Impact:**
-- ✅ Reduced report refresh time by **40%**
-- ✅ Improved data accuracy
-- ✅ Enabled real-time decision-making
-- ✅ Helped optimize regional sales strategies and focus on high-performing categories
+Once I had the data model ready, I connected it to Power BI. Using **DAX**, I created custom measures for things like profit margins, year-over-year growth comparisons, and regional performance metrics.
+
+For the visualization layer, I built an interactive dashboard where users could drill down into sales by region, product category, and different time periods. I added slicers and filters to make it really dynamic and user-friendly.
+
+The results were quite impactful — we **reduced report refresh time by 40%**, improved overall data accuracy, and most importantly, stakeholders could now make decisions in real-time. The dashboard helped identify high-performing product categories and regions, which directly influenced their sales strategies.
 
 ---
 
 ### 🏦 Customer Churn Analysis
 
-I worked on a **Bank Customer Churn Analysis** dashboard for a retail bank that wanted to understand why customers were leaving.
+**Q: Tell me about your Customer Churn Analysis project.**
 
-**The Challenge:**  
-The bank had over **10,000 customer records**, but their existing reports didn't show clear churn patterns, making it difficult to design retention strategies.
+Absolutely! This was a really interesting project where I worked with a retail bank dataset to understand customer churn patterns.
 
-**My Approach:**
+The bank had over **10,000 customer records**, but their existing reports weren't showing clear patterns about why customers were leaving. This made it really difficult for them to design effective retention strategies.
 
-1. **Data Integration:** Built a star schema data model in Power BI, integrating multiple sources including customer demographics, credit card usage, and activity data
-2. **Analysis:** Used DAX and Power BI visuals to analyze monthly churn trends, region-wise performance, and credit card holder churn rates
-3. **Interactivity:** Created a fully interactive dashboard enabling marketing and product teams to filter and explore customer segments dynamically
+I started by integrating data from multiple sources — customer demographics, credit card usage patterns, and account activity data. I built a **star schema data model** in Power BI to organize all this information efficiently.
 
-**Key Findings:**
-- 🔍 Discovered a **429% spike in churn** following a policy change
-- 💰 Projected that targeted retention strategies could recover approximately **$250,000 in annual revenue**
+Then, using **DAX** and various Power BI visualizations, I analyzed monthly churn trends, region-wise performance, and specifically looked at credit card holder churn rates. I made sure the dashboard was fully interactive with slicers and filters, so the marketing and product teams could explore different customer segments on their own.
 
-**Business Impact:**  
-This project showcased my ability to connect data insights to business outcomes and emphasized the power of using BI tools for strategic decision-making.
+One of the most significant findings from my analysis was a **429% spike in churn** that occurred right after a particular policy change. This spike had actually gone unnoticed before my analysis, and it clearly showed the negative business impact of that decision.
+
+Based on my analysis and the patterns I identified, I calculated that implementing targeted retention strategies for high-risk customer segments could potentially recover approximately **$250,000 in annual revenue** by preventing future customer loss.
+
+What I really enjoyed about this project was how it demonstrated the direct link between data insights and business strategy. It wasn't just about creating visualizations — it was about telling a story that could drive real business decisions.
 
 ---
 
